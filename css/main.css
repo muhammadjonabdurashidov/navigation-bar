@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.boxs {
+  display: flex;
+  align-items: flex-start;
+}
+
+.box {
+  display: none;
+}
+
+.boxone {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(59, 77, 164);
+  width: 30px;
+}
+
+.buttonone {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
